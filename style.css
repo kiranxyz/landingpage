@@ -138,3 +138,20 @@ section li p {
   letter-spacing: 0.5px;
   margin: 0.2rem 0;
 }
+
+.footer {
+  list-style: none; 
+  background: none;
+  box-shadow: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+.footer:hover {
+  cursor: pointer
+}
+
+.footer li::before {
+  content: none;
+}
