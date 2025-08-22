@@ -118,6 +118,10 @@ main section:hover {
   transform: translateY(-5px);
 }
 
+li {
+  list-style-type: none;
+}
+
 
 section li {
   margin: 0.5rem 0;
